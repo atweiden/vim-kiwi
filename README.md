@@ -9,6 +9,14 @@ Description
 For now, just extends [vim-fennel][vim-fennel] syntax highlighting to the
 `.kiwi` file extension to facilitate Kiwi-specific settings customization.
 
+Config
+------
+
+```vim
+" highlight kiwi macros
+let g:kiwi_highlight_macros = 1
+```
+
 Installation
 ------------
 

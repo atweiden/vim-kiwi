@@ -5,6 +5,10 @@ endif
 let s:cpo_save = &cpo
 set cpo&vim
 
+if kiwi#config#HighlightMacros()
+  let g:fennel_highlight_kiwi = 1
+endif
+
 runtime! syntax/fennel.vim
 
 let b:current_syntax = "kiwi"

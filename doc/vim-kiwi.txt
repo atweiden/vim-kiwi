@@ -49,6 +49,16 @@ Standard installation:
 *  minpac >
 
     call minpac#add('atweiden/vim-kiwi')
+
+==============================================================================
+SETTINGS                                                       *kiwi-settings*
+
+                                                   *'g:kiwi_highlight_macros'*
+
+Apply special syntax highlighting rules to Kiwi macros (e.g. `pantry`,
+`diet`). By default it is disabled.
+>
+  let g:kiwi_highlight_macros = 1
 <
 
 ==============================================================================
