@@ -1,0 +1,61 @@
+*vim-kiwi.txt* Kiwi support for Vim
+*vim-kiwi*
+
+==============================================================================
+@                                  |_/.   .                                  @
+@                                  | \|\)/|                                  @
+==============================================================================
+CONTENTS                                                       *kiwi-contents*
+
+  1. Intro........................................|kiwi-intro|
+  2. Install......................................|kiwi-install|
+  3. Settings.....................................|kiwi-settings|
+  4. Credits......................................|kiwi-credits|
+
+==============================================================================
+INTRO                                                             *kiwi-intro*
+
+Kiwi support for Vim.
+
+  * Improved syntax highlighting.
+
+==============================================================================
+INSTALL                                                         *kiwi-install*
+
+Standard installation:
+
+*  Vim 8 |packages| >
+
+    git clone https://github.com/atweiden/vim-kiwi \
+      ~/.vim/pack/plugins/start/vim-kiwi
+<
+*  Pathogen >
+
+    git clone https://github.com/atweiden/vim-kiwi \
+      ~/.vim/bundle/vim-kiwi
+<
+*  Plug >
+
+    Plug 'atweiden/vim-kiwi'
+<
+*  Vundle >
+
+    Plugin 'atweiden/vim-kiwi'
+<
+*  dein.vim >
+
+    call dein#add('atweiden/vim-kiwi')
+<
+*  minpac >
+
+    call minpac#add('atweiden/vim-kiwi')
+<
+
+==============================================================================
+CREDITS                                                         *kiwi-credits*
+
+- Fennel plugin authors
+  * atweiden/vim-fennel
+
+
+ vim: ft=help tw=78 et ts=2 sw=2 sts=2 norl
